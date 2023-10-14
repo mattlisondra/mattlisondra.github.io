@@ -1,0 +1,75 @@
+{"teaching":
+    [
+        {
+            "url": "https://github.com/craffel/comp790-deep-learning-spring-2021",
+            "name": "Instructor, Deep Learning",
+            "location": "UNC Chapel Hill",
+            "year": 2023
+        },
+        {
+            "url": "https://github.com/craffel/llm-seminar/",
+            "name": "Instructor, Large Language Models",
+            "location": "UNC Chapel Hill",
+            "year": 2022
+        },
+        {
+            "url": "https://github.com/craffel/comp790-deep-learning-spring-2022",
+            "name": "Instructor, Deep Learning",
+            "location": "UNC Chapel Hill",
+            "year": 2022
+        },
+        {
+            "url": "https://github.com/craffel/comp790-information-theory-fall-2021",
+            "name": "Instructor, Information Theory",
+            "location": "UNC Chapel Hill",
+            "year": 2021
+        },
+        {
+            "url": "https://github.com/craffel/comp790-deep-learning-spring-2021",
+            "name": "Instructor, Deep Learning",
+            "location": "UNC Chapel Hill",
+            "year": 2021
+        },
+        {
+            "url": "https://github.com/craffel/dl3d-seminar/blob/master/README.md",
+            "name": "Instructor, Learning from Limited Labeled Data",
+            "location": "UNC Chapel Hill",
+            "year": 2020
+        },
+        {
+            "url": "https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/",
+            "name": "Instructor, Introduction to Machine Learning",
+            "location": "Google TechExchange",
+            "year": 2018
+        },
+        {
+            "url": "http://llcao.net/cu-deeplearning15/",
+            "name": "Teacher's Assistant, Deep Learning for Computer Vision and NLP",
+            "location": "Columbia University",
+            "year": 2015
+        },
+        {
+            "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
+            "name": "Teacher's Assistant, Music Digital Signal Processing",
+            "location": "Columbia University",
+            "year": 2014
+        },
+        {
+            "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
+            "name": "Teacher's Assistant, Music Digital Signal Processing",
+            "location": "Columbia University",
+            "year": 2013
+        },
+        {
+            "name": "Instructor, Electronics",
+            "location": "Oberlin College",
+            "year": 2009
+        },
+        {
+            "url": "http://experimentalistsanonymous.com/other/circuitbendingexco/",
+            "name": "Instructor, Circuit Bending",
+            "location": "Oberlin ExCo",
+            "year": 2006
+        }
+    ]
+}

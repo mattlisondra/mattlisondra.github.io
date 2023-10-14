@@ -1,0 +1,57 @@
+{"employment":
+    [
+        {
+            "url": "http://www.rockprodigy.com/",
+            "name": "The Way of H",
+            "role": "Signal Processing Contractor",
+            "start": 2011,
+            "end": 2013
+        },
+        {
+            "url": "http://www.beatkangz.com/",
+            "name": "Beat Kangz Electronics",
+            "role": "Software Engineer",
+            "start": 2011,
+            "end": 2012
+        },
+        {
+            "name": "Noisette Audio LLC",
+            "start": "2011",
+            "end": "2012",
+            "role": "Founder, Independent Contractor"
+        },
+        {
+            "url": "http://www.imagine-research.com/",
+            "name": "Imagine Research",
+            "role": "Intern, Contractor",
+            "start": 2010,
+            "end": 2012
+        },
+        {
+            "url": "http://sacredagent.com/",
+            "name": "SacredAgent",
+            "role": "Signal Processing Researcher",
+            "start": 2010
+        },
+        {
+            "url": "http://wobc.org/",
+            "name": "WOBC, Oberlin College and Community Radio",
+            "role": "Engineer, Station Manager",
+            "start": "2008",
+            "end": "2009"
+        },
+        {
+            "url": "http://www.ebay.com/",
+            "name": "eBay",
+            "role": "Intern",
+            "start": 2004
+        },
+        {
+            "url": "http://www.experimentalistsanonymous.com/",
+            "name": "Experimentalists Anonymous",
+            "start": "2003",
+            "end": "2013",
+            "role": "Founder, Custom Electronics Designer"
+        }
+    ]
+}

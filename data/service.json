@@ -1,0 +1,223 @@
+{"service":
+    [
+        {
+            "role": "Peer Reviewer",
+            "venue": "Canada CIFAR AI Chairs program",
+            "start": 2023
+        },
+        {
+            "url": "https://tl4nlp.github.io/",
+            "role": "Organizer",
+            "venue": "NeurIPS Workshop on Transfer Learning for NLP",
+            "start": 2022
+        },
+        {
+            "role": "Senior Area Chair",
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "start": 2022,
+            "end": 2023
+        },
+        {
+            "role": "Panel Moderator",
+            "venue": "7th Workshop on Representation Learning for NLP",
+            "start": 2022
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Conference on Computational Natural Language Learning",
+            "start": 2022
+        },
+        {
+            "role": "Senior Area Chair",
+            "venue": "North American Chapter of the Association for Computational Linguistics",
+            "start": 2022
+        },
+        {
+            "url": "https://pretraining.github.io/",
+            "role": "Organizer",
+            "venue": "ICML 2022 Workshop on Pre-Training",
+            "start": 2022
+        },
+        {
+            "role": "Panelist",
+            "venue": "National Science Foundation",
+            "start": 2022
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "start": 2022
+        },
+        {
+            "role": "Action Editor",
+            "venue": "Transactions on Machine Learning Research",
+            "start": 2022,
+            "end": 2023
+        },
+        {
+            "role": "Member",
+            "venue": "ACL Working Group on Efficient NLP",
+            "start": 2021
+        },
+        {
+            "role": "Action Editor",
+            "venue": "ACL Rolling Review",
+            "start": 2021
+        },
+        {
+            "url": "http://welmworkshop.github.io",
+            "role": "Lead Organizer",
+            "venue": "ICLR 2021 Workshop on Enormous Language Models",
+            "start": 2021
+        },
+        {
+            "role": "Area Chair",
+            "venue": "North American Chapter of the Association for Computational Linguistics",
+            "start": 2021
+        },
+        {
+            "role": "Area Chair",
+            "venue": "International Conference on Learning Representations",
+            "start": 2021,
+            "end": 2023
+        },
+        {
+            "role": "Area Chair",
+            "venue": "AAAI Conference on Artificial Intelligence",
+            "start": 2021
+        },
+        {
+            "role": "Mentor",
+            "venue": "Women in Machine Learning (WiML) Roundtable",
+            "start": 2020
+        },
+        {
+            "role": "Organizer",
+            "venue": "NeurIPS Competition on Efficient Open-Domain Question Answering",
+            "start": 2020
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Neural Information Processing Systems",
+            "start": 2020,
+            "end": 2023
+        },
+        {
+            "role": "Panelist",
+            "venue": "Decoding Graduate Programs in CS",
+            "start": 2020
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "start": 2020
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Journal of Machine Learning Research",
+            "start": 2020,
+            "end": 2023
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Transactions of the International Society for Music Information Retrieval",
+            "start": 2020
+        },
+        {
+            "role": "Mentor",
+            "venue": "Black in AI",
+            "start": 2020
+        },
+        {
+            "role": "Mentor",
+            "venue": "Women in Music Information Retrieval (WiMIR)",
+            "start": 2019
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Machine Learning for Creativity and Design Workshop",
+            "start": 2018
+        },
+        {
+            "role": "Area Chair",
+            "venue": "International Society for Music Information Retrieval Conference",
+            "start": 2018
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Conference on Machine Learning",
+            "start": 2018,
+            "end": 2022
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Conference on Learning Representations",
+            "start": 2018,
+            "end": 2020
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Journal of Computer Vision",
+            "start": 2018
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Neural Information Processing Systems",
+            "start": 2017,
+            "end": 2019
+        },
+        {
+            "url": "https://github.com/ismir-net/ismir2016-lbd",
+            "role": "Late Breaking/Demo and Unconference Chair",
+            "venue": "17th International Society for Music Information Retrieval Conference",
+            "start": 2016
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Journal of New Music Research",
+            "start": 2016
+        },
+        {
+            "role": "Reviewer",
+            "venue": "EURASIP Journal on Audio, Speech, and Music Processing",
+            "start": 2015
+        },
+        {
+            "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
+            "role": "Founder and Organizer",
+            "venue": "Neural Network Reading Group and Seminar Series at Columbia University",
+            "start": 2014,
+            "end": 2016
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Society for Music Information Retrieval Conference",
+            "start": 2014,
+            "end": 2017
+        },
+        {
+            "url": "http://labrosa.ee.columbia.edu/crucialpython/",
+            "role": "Founder and Organizer",
+            "venue": "Crucial Python Seminar Series at Columbia University",
+            "start": 2014
+        },
+        {
+            "role": "Reviewer",
+            "venue": "IEEE International Symposium on Information Theory",
+            "start": 2014
+        },
+        {
+            "url": "http://labrosa.ee.columbia.edu/hamr/",
+            "role": "Founder and Organizer",
+            "venue": "Hacking Audio and Music Research (HAMR) hackathon series",
+            "start": 2013,
+            "end": "now"
+        },
+        {
+            "role": "Mathematics Tutor",
+            "venue": "Oberlin College",
+            "start": 2008,
+            "end": 2009
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{"press":
+    [
+        {
+            "title": "Petals is creating a free, distributed network for running text-generating AI",
+            "publication": "TechCrunch",
+            "url": "https://techcrunch.com/2022/12/20/petals-is-creating-a-free-distributed-network-for-running-text-generating-ai/",
+            "year": 2022
+        },
+        {
+            "title": "Supersized AIs: Are truly intelligent machines just a matter of scale?",
+            "publication": "New Scientist",
+            "url": "https://www.newscientist.com/article/mg25133550-800-supersized-ais-are-truly-intelligent-machines-just-a-matter-of-scale/",
+            "year": 2021
+        },
+        {
+            "title": "GitHub’s Commercial AI Tool Was Built From Open Source Code",
+            "publication": "Wired",
+            "url": "https://www.wired.com/story/github-commercial-ai-tool-built-open-source-code/",
+            "year": 2021
+        },
+        {
+            "title": "Robo-writers: the rise and risks of language-generating AI",
+            "publication": "Nature",
+            "url": "https://www.nature.com/articles/d41586-021-00530-0",
+            "year": 2020
+        },
+        {
+            "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
+            "publication": "The Thesis Review Podcast",
+            "url": "https://cs.nyu.edu/~welleck/episode2.html",
+            "year": 2020
+        },
+        {
+            "title": "An interview with Colin Raffel, Research Scientist at Google",
+            "publication": "Interviews with Sayak Paul",
+            "url": "https://spsayakpaul.medium.com/an-interview-with-colin-raffel-research-scientist-at-google-5e445a5e57c6",
+            "year": 2020
+        },
+        {
+            "title": "Global Researchers Reflect on 2019, Talk Trends for 2020",
+            "publication": "Synced Review",
+            "url": "https://syncedreview.com/2020/01/02/happy-ai-new-year-global-researchers-reflect-on-2019-talk-trends-for-2020/",
+            "year": 2020
+        },
+        {
+            "title": "The Limits of NLP",
+            "publication": "Data Skeptic Podcast",
+            "url": "https://podcasts.apple.com/us/podcast/the-limits-of-nlp/id890348705?i=1000460606378",
+            "year": 2019
+        }
+    ]
+}

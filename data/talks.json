@@ -1,0 +1,274 @@
+{"talks":
+    [
+        {
+            "title": "Build an Ecosystem, Not a Monolith",
+            "venue": "Simons Institute Workshop on Large Language Models and Transformers, Google Responsible Machine Learning Reading Group, University of Edinburgh ILCC Seminar, Stanford NLP Seminar, UCSD AI Seminar, and Yale CPSC 488/588 Lecture",
+            "url": "http://colinraffel.com/talks/simons2023build.pdf",
+            "year": 2023
+        },
+        {
+            "title": "Collaborative, Communal, & Continual Machine Learning",
+            "venue": "Faculty job talk",
+            "url": "http://colinraffel.com/talks/faculty2023collaborative.pdf",
+            "year": 2023
+        },
+        {
+            "title": "Building Better Language Models: Insights from BigScience",
+            "venue": "Stanford Center for Research on Foundation Models",
+            "url": "http://colinraffel.com/talks/stanford2022building.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Weird Things About Professorship",
+            "venue": "EMNLP Share Stories and Lessons Learned Workshop",
+            "url": "http://colinraffel.com/talks/emnlp2022weird.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Building Better Language Models",
+            "venue": "Johns Hopkins University CSCI 601.771 Lecture, Mosaic.ml, and Vector Institute Research Symposium",
+            "url": "http://colinraffel.com/talks/jhu2022building.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Infrastructure and Progress Towards the First Community-Built and Continually-Improved Model",
+            "venue": "Microsoft Research Efficient Large-Scale AI Workshop",
+            "url": "http://colinraffel.com/talks/microsoft2022infrastructure.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Building Machine Learning Models Like Open-Source Software",
+            "venue": "Microsoft Research Summit, World Artificial Intelligence Conference, Technische Universität Darmstadt, UT Austin Forum for Artificial Intelligence, Korea AI Summit, Stanford CS324 Lecture, Stanford MLSys Seminar Series, and MLsys Symposium on Decentralized and Collaborative Learning",
+            "url": "http://colinraffel.com/talks/microsoft2022building.pdf",
+            "year": 2022
+        },
+        {
+            "title": "How to Be an Academic Machine Learning Researcher in the Era of Scale",
+            "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School",
+            "url": "http://colinraffel.com/talks/dlrl2022how.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Less Data, More ___? Data Augmentation and Semi-Supervised Learning for Natural Language Processing",
+            "venue": "60th Annual Meeting of the Association for Computational Linguistics Tutorials",
+            "url": "http://colinraffel.com/talks/acl2022less.pdf",
+            "year": 2022
+        },
+        {
+            "title": "A call to build models like we build open-source software",
+            "venue": "Cornell University Artificial Intelligence Seminar, Georgia Tech NLP Seminar, UMass Amherst Machine Learning & Friends Lunch, UC Santa Barbara NLP Seminar",
+            "url": "http://colinraffel.com/talks/cornell2021call.pdf",
+            "year": 2021
+        },
+        {
+            "title": "A few possibly controversial opinions about large language models",
+            "venue": "Carnegie Mellon University Language Technologies Topical Seminar",
+            "url": "http://colinraffel.com/talks/cmu2021few.pdf",
+            "year": 2021
+        },
+        {
+            "title": "The Sweet Lesson",
+            "venue": "SustaiNLP Workshop",
+            "url": "http://colinraffel.com/talks/sustainlp2021sweet.pdf",
+            "year": 2021
+        },
+        {
+            "title": "What do language models learn from language modeling?",
+            "venue": "Stanford University CS 330 Lecture and Advanced Language Processing Winter School",
+            "url": "http://colinraffel.com/talks/stanford2021what.pdf",
+            "year": 2021
+        },
+        {
+            "title": "How and why should(n't) we scale machine learning?",
+            "venue": "IBM AI Hardware Forum Keynote",
+            "url": "http://colinraffel.com/talks/ibm2021how.pdf",
+            "year": 2021
+        },
+        {
+            "title": "A better way to get language models to do what you ask",
+            "venue": "AKBC 2021 Unstructured and Structured Knowledge Bases Workshop and Cohere.ai",
+            "url": "http://colinraffel.com/talks/uskb2021better.pdf",
+            "year": 2021
+        },
+        {
+            "title": "Scaling up Models and Data",
+            "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School, Nepal Winter School in AI, and Advanced Language Processing Winter School",
+            "url": "http://colinraffel.com/talks/dlrl2021scaling.pdf",
+            "year": 2021
+        },
+        {
+            "title": "Explicit and Implicit Entropy Minimization in Proxy-Label-Based Semi-Supervised Learning",
+            "venue": "CVPR Workshop on Learning with Limited and Imperfect Data",
+            "url": "http://colinraffel.com/talks/cvpr2021explicit.pdf",
+            "year": 2021
+        },
+        {
+            "title": "The benefits of unified frameworks for language understanding",
+            "venue": "Conceptual Understanding of Deep Learning Workshop",
+            "url": "http://colinraffel.com/talks/cudl2021benefits.pdf",
+            "year": 2021
+        },
+        {
+            "title": "T5 and large language models: The good, the bad, and the ugly",
+            "venue": "Stanford University CS 224n Lecture, CU Boulder Applied Mathematics Colloqium, Twitter Machine Learning Seminar, Google Graduate Symposium &amp; TTIC NLP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2021t5.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Responsible publication: NLP case study",
+            "venue": "Navigating the Broader Impacts of AI Research Workshop Panel",
+            "url": "https://nbiair.com/",
+            "year": 2020
+        },
+        {
+            "title": "What Can MIR Learn From Transfer Learning in NLP?",
+            "venue": "NLP for Music and Audio Workshop Keynote",
+            "url": "http://colinraffel.com/talks/nlp4musa2020what.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Transfer Learning for NLP: T5 and Beyond",
+            "venue": "Montreal Institute for Learning Algorithms Tea Talk &amp; Spotify Research Seminar",
+            "url": "http://colinraffel.com/talks/mila2020transfer.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Answering Questions by Querying the Implicit Knowledge Base Inside T5",
+            "venue": "AKBC 2020 Unstructured and Structured Knowledge Bases Workshop",
+            "url": "http://colinraffel.com/talks/uskb2020answering.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "venue": "Allen Institute for Artificial Intelligence &amp; New York University CILVR Seminar",
+            "url": "http://colinraffel.com/talks/ai22020exploring.pdf",
+            "year": 2019
+        },
+        {
+            "title": "Outskirts of Deep Generative Modeling",
+            "venue": "Faculty Job Talk",
+            "url": "http://colinraffel.com/talks/faculty2019outskirts.pdf",
+            "year": 2019
+        },
+        {
+            "title": "Why are GANs Interesting?",
+            "venue": "New York University CILVR Seminar",
+            "url": "http://colinraffel.com/talks/nyu2018why.pdf",
+            "year": 2018
+        },
+        {
+            "title": "A Few Unusual Autoencoders",
+            "venue": "Vector Institute, New York University &amp; San Francisco State University",
+            "url": "http://colinraffel.com/talks/vector2018few.pdf",
+            "year": 2018
+        },
+        {
+            "title": "Leveraging MIDI Files for Music Information Retrieval",
+            "venue": "18th International Society for Music Information Retrieval Conference Tutorials",
+            "url": "http://colinraffel.com/talks/ismir2017leveraging.pdf",
+            "year": 2017
+        },
+        {
+            "title": "Doing Strange Things with Attention",
+            "venue": "AI With The Best &amp; 1st USF Data Institute Conference",
+            "url": "http://colinraffel.com/talks/aiwtb2017doing.pdf",
+            "year": 2017
+        },
+        {
+            "title": "The Lakh MIDI Dataset: How It Was Made, and How to Use It",
+            "venue": "BISH Bash Meetup, Centre for Digital Music Seminar &amp; Jukedeck Lunch and Learn",
+            "url": "http://colinraffel.com/talks/c4dm2016lakh.pdf",
+            "year": 2016
+        },
+        {
+            "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
+            "venue": "2nd ICML Machine Learning for Music Discovery Workshop",
+            "url": "http://colinraffel.com/talks/icml2016learning.pdf",
+            "year": 2016
+        },
+        {
+            "title": "Accelerating Large-Scale Sequence Retrieval with Convolutional Networks",
+            "venue": "IIT Bombay Electrical Engineering Seminar",
+            "url": "http://colinraffel.com/talks/iitbombay2015accelerating.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Learning Efficient Representations for Sequence Retrieval",
+            "venue": "Boston Data Festival",
+            "url": "http://colinraffel.com/talks/boston2015learning.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Using Convolutional Networks (with Attention) for Orders-of-Magnitude Speedup of DTW-Based Sequence Retrieval",
+            "venue": "Spotify Machine Learning Seminar",
+            "url": "http://colinraffel.com/talks/spotify2015using.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Recurrent Networks in Lasagne",
+            "venue": "Mount Sinai Hammer Lab Seminar",
+            "url": "http://colinraffel.com/talks/hammer2015recurrent.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Lasagne Tutorial",
+            "venue": "Next.ml Boston",
+            "url": "http://colinraffel.com/talks/next2015lasagne.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Theano Tutorial",
+            "venue": "Next.ml Boston",
+            "url": "http://colinraffel.com/talks/next2015theano.pdf",
+            "year": 2015
+        },
+        {
+            "title": "mir_eval",
+            "venue": "Objective Evaluation in Semantic Audio Analysis and Processing Panel at the 138th Convention of the Audio Engineering Society",
+            "url": "http://colinraffel.com/talks/aes2015objective.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Large-Scale Content-Based Matching of Audio and MIDI Data",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2015large.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Advances and Challenges in Large-Scale Music Information Retrieval",
+            "venue": "Digital Music Research Network+8",
+            "url": "http://colinraffel.com/talks/dmrn2013advances.pdf",
+            "year": 2013
+        },
+        {
+            "title": "Quantifying Rhythmic Synchrony",
+            "venue": "Midwestern Music Cognition Symposium",
+            "url": "http://colinraffel.com/talks/mmcs2013quantifying.pdf",
+            "year": 2013
+        },
+        {
+            "title": "A Sequential Approach to Musical Event Detection",
+            "venue": "Carnegie Mellon University Music and Technology Seminar",
+            "url": "http://colinraffel.com/talks/cmu2011sequential.pdf",
+            "year": 2011
+        },
+        {
+            "title": "ROW-mp3: An Enhanced MP3-Compatible Audio Codec",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2010row.pdf",
+            "year": 2010
+        },
+        {
+            "title": "An Effective Model of Bucket-Brigade Device-Based Audio Circuits",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2010effective.pdf",
+            "year": 2010
+        },
+        {
+            "title": "Voltage-Controlled Resistance: Modulate Anything",
+            "venue": "Circuitastrophe Circuit Bending Music Festival",
+            "url": "http://colinraffel.com/talks/circuitastrophe2008voltage.pdf",
+            "year": 2008
+        }
+    ]
+}
