@@ -23,6 +23,11 @@
             max-width: 100%;
             height: auto;
             margin: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .enlarged {
+            transform: scale(2);
         }
         @media (min-width: 600px) {
             img {
@@ -34,15 +39,20 @@
 
 <body>
     <div class="container">
-        <img src="images/matthew_lisondra_film1.png">
-        <img src="images/matthew_lisondra_film2.png">
-        <img src="images/matthew_lisondra_film3.png">
-        <img src="images/matthew_lisondra_film4.png">
-        <img src="images/matthew_lisondra_film5.png">
-        <img src="images/matthew_lisondra_film6.png">
-        <img src="images/matthew_lisondra_film7.png">
-        <img src="images/matthew_lisondra_film8.png">
+        <img src="images/matthew_lisondra_film1.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film2.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film3.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film4.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film5.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film6.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film7.png" onclick="toggleEnlarge(this)">
+        <img src="images/matthew_lisondra_film8.png" onclick="toggleEnlarge(this)">
     </div>
+    <script>
+        function toggleEnlarge(img) {
+            img.classList.toggle("enlarged");
+        }
+    </script>
 </body>
 
 </html>
