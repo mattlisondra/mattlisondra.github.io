@@ -93,68 +93,182 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Publications/Works</heading>
-            <p>
-              Please find below a list of my select publications/works (in progress and by importance of work):
-            </p>
-            <p>
-              <b>Forthcoming Contributions:</b>
-            </p>
-            <ul>
-                <li>1) Language-Guided Service Robotics: A Comprehensive Survey on Foundation Models for Human-Robot Task Completion (In Progress)</li>
-                <li>2) PovNet+: A Deep Learning Architecture for Socially Assistive Robots to Learn and Assist with Multiple Activities of Daily Living (In Progress)</li>
-                <li>3) TCB-VIO: Tightly-Coupled Focal-Plane Binary-Feature Visual Inertial Odometry (In Progress)</li>
-                <li>4) Microplastics Classification and Size Estimation using High-frequency Focused Ultrasound (In Progress)</li>
-                <li>5) Design of a Robotic Haptic Device with Variable Stiffness for Finger Rehabilitation (In Progress)</li>
-                <li>6) Large-scale Distributed Heterogeneous Multiple-robot Localization and Mapping Dataset with Communication Constraints (In Progress)</li>
-                <li>7) Pick-and-Place for Language-Constrained Manipulation using Equivariance Networks and Neural Descriptor Fields (In Progress)</li>
-                <li>8) AnalogPedestrianNet: High Framerate Focal-Plane Sensor-Processor Pedestrian Tracking (In Progress)</li>
-            </ul>
-            <p>
-              <b>Peer Reviewed Contributions:</b>
-            </p>
+            <heading>Selected Publications/Works</heading>
           </td>
         </tr>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+
+
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="images/MASc_Thesis_Matthew_Lisondra_Final.png" alt="secure" width="200" height="202">
+            <img src="images/2025_ram_embodiedai_foundation_models.png" alt="secure" width="200" height="202">
           </td>
           <td width="75%" valign="middle">
-            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.pdf">
-              <papertitle>[1] Focal-Plane Sensor-Processor-Based Visual Inertial Odometry</papertitle>
+            <a href="">
+              <papertitle>[1] Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review</papertitle>
             </a>
             <br>
-            <strong>Matthew Lisondra*1</strong>,
+            <strong>Matthew Lisondra1</strong>,
+            Beno Benhabib1,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Goldie Nejat1</a>
             <br>
             (1University of Toronto)
             <br>
-            <em>Thesis</em>, 2024
+            <em>IEEE Robotics and Automation Magazine (RA-M)</em>, 2025
             <br>
-            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.bib">bibtex</a>
-            /
-            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.pdf">PDF</a>
+            <em>Special Issue on Embodied AI: Bridging Robotics and Artificial Intelligence Toward Real-World Applications</em>
+            <br>
+            (In Review)
             <br>
             <p></p>
             <p>
-              Studied the usability and advantages of FPSPs to leverage a more accurate state estimation framework
+              Presents the first systematic review of foundation models integrated into mobile service robotics
               <br>
-              Designed an algorithm for VIO using Focal-Plane Binary Features 
+              Identifies and categorizes the core challenges in embodied AI: multimodal sensor fusion, real-time decision-making, task generalization, and effective human-robot interaction
               <br>
-              Implemented the FPSP vision- IMU-fused estimation algorithm on a mobile device for offline and online real-world testing
+              Analyzes how foundation models (LLMs, VLMs, MLLMs, VLAs) enable real-time sensor fusion, language-conditioned control, and adaptive task execution
               <br>
-              Evaluate the performance, benchmarking against FPSP vision-alone and ground-truth data
+              Examines real-world deployments across domestic assistance, healthcare, and service automation domains
               <br>
-              Extensive study on the algorithmic execution timing/frame, accuracy, memory usage
+              Demonstrates the transformative role of foundation models in enabling scalable, adaptable, and semantically-grounded robot behavior
               <br>
-              and power consumption of the visual front-end processing performance on the FPSP
+              Proposes future research directions emphasizing predictive scaling laws, autonomous long-term adaptation, and cross-embodiment generalization
+              <br>
+              Highlights the need for robust and efficient deployment of foundation models in human-centric robotic systems
             </p>
           </td>
         </tr>
 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/2025_ram_embodiedai_foundation_models.png" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="">
+              <papertitle>[2] TCB-VIO: Tightly-Coupled Focal-Plane Binary-Enhanced Visual Inertial Odometry</papertitle>
+            <br>
+            <strong>Matthew Lisondra*1</strong>,
+            <a href="https://kimjunseo.com/">Junseo Kim*2</a>,
+            Glenn Takashi Shimoda3,
+            <a href="https://sajad-saeedi.ca/">Sajad Saeedi4</a>
+            <br>
+            (1University of Toronto, 2TU Delft, 3TMU, 4University College London)
+            <br>
+            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2025
+            <br>
+            (In Review)
+            <br>
+            <p></p>
+            <p>
+              Presents TCB-VIO: the first tightly coupled 6-DoF visual-inertial odometry algorithm designed for Focal-Plane Sensor-Processor Arrays (FPSPs)
+              <br>
+              Achieves high-speed visual-inertial fusion at 250 FPS (vision) and 400 Hz (IMU) using a Multi-State Constraint Kalman Filter (MSCKF)
+              <br>
+              Introduces a novel binary-enhanced Kanade-Lucas-Tomasi (KLT) tracker tailored for on-sensor binary edge images and feature maps
+              <br>
+              Leverages FPSP on-sensor processing to drastically reduce data transfer latency and power consumption for mobile robotics
+              <br>
+              Maintains accurate and robust tracking even under aggressive motion where state-of-the-art methods (VINS-Mono, ORB-SLAM3, ROVIO) fail
+              <br>
+              Demonstrates superior tracking smoothness and feature longevity using long binary feature tracks in real-world environments
+              <br>
+              Validated on the SCAMP-5 FPSP, highlighting robustness despite analog computing constraints such as limited per-pixel memory and noise
+              <br>
+              Extends and adapts the OpenVINS tightly coupled framework to work with binary feature-based, low-power embedded vision sensors
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/2025_ram_embodiedai_foundation_models.png" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="">
+              <papertitle>[3] High-frequency Focused Ultrasound for Microplastics Identification and Size Estimation</papertitle>
+            </a>
+            <br>
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Navid Zarrabi2</a>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Eric Stohm3</a>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Hadi Rezvani4</a>,
+            <strong>Matthew Lisondra1</strong>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Nariman Yousefi5</a>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Sajad Saeedi1</a>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Michael Kolios6</a>
+            <br>
+            (1University of Toronto)
+            <br>
+            2025
+            <br>
+            (In Review)
+            <br>
+            <p></p>
+          <p>
+            Proposes a novel ultrasound-based method for detecting, identifying, and sizing microplastic particles using high-frequency acoustic signals
+            <br>
+            Introduces a peak extraction technique to isolate key features from backscattered ultrasound signals for improved material classification
+            <br>
+            Develops a 1-D Convolutional Neural Network (CNN) achieving 99.63% accuracy for classifying microplastic materials (PE, PMMA, steel, glass)
+            <br>
+            Implements a two-hidden-layer material-specific Multilayer Perceptron (MLP) that estimates particle size with 99.97% accuracy
+            <br>
+            Demonstrates an integrated machine learning pipeline combining material identification and size estimation from ultrasound signals
+            <br>
+            Offers a low-cost, rapid, and automated alternative to traditional microplastic detection techniques (e.g., Raman, FTIR, microscopy)
+            <br>
+            Validates the approach on a custom dataset of microsphere backscatter signals, demonstrating potential for in-situ environmental monitoring
+            <br>
+            Advances the field of acoustic signal processing by showcasing the potential of ultrasound and AI for environmental pollutant characterization
+          </p>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/2025_ram_embodiedai_foundation_models.png" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="">
+              <papertitle>[4] PovNet+: A Deep Learning Architecture for Socially Assistive Robots to Learn and Assist with Multiple Activities of Daily Living</papertitle>
+            </a>
+            <br>
+            <strong>Matthew Lisondra*1</strong>,
+            Souren Pashangpour*1,
+            <a href="https://www.revolvesurgical.com/">Fraser Robinson2</a>
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Goldie Nejat1</a>
+            <br>
+            (1University of Toronto, 2Resolve Surgical)
+            <br>
+            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2025
+            <br>
+            (In Review)
+            <br>
+            <p></p>
+            <p>
+              Presents the first multimodal deep learning architecture for autonomous multi-activity recognition in socially assistive robots (SARs)
+              <br>
+              Introduces a novel ADL and motion embedding space to distinguish between known ADLs, unseen ADLs, and atypical ADL performances
+              <br>
+              Proposes a new user state estimation method that applies similarity functions to identify novel or atypical ADLs in real-time
+              <br>
+              Enables proactive human-robot interaction (HRI) by allowing SARs to autonomously initiate assistive behaviors based on activity context
+              <br>
+              Addresses limitations of prior ADL recognition systems which misclassified non-ADL movements and lacked online generalization
+              <br>
+              Demonstrates higher ADL classification accuracy compared to state-of-the-art human activity recognition models
+              <br>
+              Validates the system through real-world HRI experiments with the socially assistive robot Leia in cluttered living environments
+              <br>
+              Supports diverse users and environments by recognizing a wider range of ADLs and adapting to personalized or atypical behaviors
+            </p>
+          </td>
+        </tr>
+          
           
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -162,7 +276,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="https://sites.google.com/view/structure-from-wifi/journal-extension">
-              <papertitle>[2] Inverse k-visibility for RSSI-based Indoor Geometric Mapping (In Review)</papertitle>
+              <papertitle>[5] Inverse k-visibility for RSSI-based Indoor Geometric Mapping (In Review)</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
@@ -199,15 +313,13 @@
           </td>
         </tr>
 
-
-
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
             <img src="images/2024_icra_bitvio.png" alt="secure" width="200" height="202">
           </td>
           <td width="75%" valign="middle">
             <a href="https://sites.google.com/view/bit-vio/home">
-              <papertitle>[3] Visual Inertial Odometry using Focal Plane Binary Features (BIT-VIO)</papertitle>
+              <papertitle>[6] Visual Inertial Odometry using Focal Plane Binary Features (BIT-VIO)</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
@@ -243,6 +355,43 @@
           </td>
         </tr>
 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/MASc_Thesis_Matthew_Lisondra_Final.png" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.pdf">
+              <papertitle>[7] Focal-Plane Sensor-Processor-Based Visual Inertial Odometry</papertitle>
+            </a>
+            <br>
+            <strong>Matthew Lisondra*1</strong>,
+            <br>
+            (1University of Toronto)
+            <br>
+            <em>Thesis</em>, 2024
+            <br>
+            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.bib">bibtex</a>
+            /
+            <a href="data/MASc_Thesis_Matthew_Lisondra_Final.pdf">PDF</a>
+            <br>
+            <p></p>
+            <p>
+              Studied the usability and advantages of FPSPs to leverage a more accurate state estimation framework
+              <br>
+              Designed an algorithm for VIO using Focal-Plane Binary Features 
+              <br>
+              Implemented the FPSP vision- IMU-fused estimation algorithm on a mobile device for offline and online real-world testing
+              <br>
+              Evaluate the performance, benchmarking against FPSP vision-alone and ground-truth data
+              <br>
+              Extensive study on the algorithmic execution timing/frame, accuracy, memory usage
+              <br>
+              and power consumption of the visual front-end processing performance on the FPSP
+            </p>
+          </td>
+        </tr>
+
+          
               </p>
             </td>
           </tr>
