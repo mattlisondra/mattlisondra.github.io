@@ -150,6 +150,7 @@
           <td width="75%" valign="middle">
             <a href="">
               <papertitle>[2] TCB-VIO: Tightly-Coupled Focal-Plane Binary-Enhanced Visual Inertial Odometry</papertitle>
+            </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
             <a href="https://kimjunseo.com/">Junseo Kim*2</a>,
@@ -164,21 +165,19 @@
             <br>
             <p></p>
             <p>
-              Presents TCB-VIO: the first tightly coupled 6-DoF visual-inertial odometry algorithm designed for Focal-Plane Sensor-Processor Arrays (FPSPs)
+              Designed the first tightly-coupled 6-DoF Visual-Inertial Odometry for FPSPs (TCB-VIO)
               <br>
-              Achieves high-speed visual-inertial fusion at 250 FPS (vision) and 400 Hz (IMU) using a Multi-State Constraint Kalman Filter (MSCKF)
+              Operates at 250 FPS with on-sensor binary edge input and 400 Hz IMU integration via MSCKF
               <br>
-              Introduces a novel binary-enhanced Kanade-Lucas-Tomasi (KLT) tracker tailored for on-sensor binary edge images and feature maps
+              Introduced binary-enhanced KLT tracker for robust and smooth feature tracking on SCAMP-5
               <br>
-              Leverages FPSP on-sensor processing to drastically reduce data transfer latency and power consumption for mobile robotics
+              Reduces latency and power via direct on-sensor SIMD processing with limited pixel memory
               <br>
-              Maintains accurate and robust tracking even under aggressive motion where state-of-the-art methods (VINS-Mono, ORB-SLAM3, ROVIO) fail
+              Outperforms VINS-Mono, ORB-SLAM3, and ROVIO under aggressive motion and fast dynamics
               <br>
-              Demonstrates superior tracking smoothness and feature longevity using long binary feature tracks in real-world environments
+              Achieves long, stable feature tracks in real-world tests with motion-capture ground truth
               <br>
-              Validated on the SCAMP-5 FPSP, highlighting robustness despite analog computing constraints such as limited per-pixel memory and noise
-              <br>
-              Extends and adapts the OpenVINS tightly coupled framework to work with binary feature-based, low-power embedded vision sensors
+              Extends OpenVINS tightly-coupled architecture for binary descriptors and high-speed tracking
             </p>
           </td>
         </tr>
@@ -207,23 +206,21 @@
             (In Review)
             <br>
             <p></p>
-          <p>
-            Proposes a novel ultrasound-based method for detecting, identifying, and sizing microplastic particles using high-frequency acoustic signals
-            <br>
-            Introduces a peak extraction technique to isolate key features from backscattered ultrasound signals for improved material classification
-            <br>
-            Develops a 1-D Convolutional Neural Network (CNN) achieving 99.63% accuracy for classifying microplastic materials (PE, PMMA, steel, glass)
-            <br>
-            Implements a two-hidden-layer material-specific Multilayer Perceptron (MLP) that estimates particle size with 99.97% accuracy
-            <br>
-            Demonstrates an integrated machine learning pipeline combining material identification and size estimation from ultrasound signals
-            <br>
-            Offers a low-cost, rapid, and automated alternative to traditional microplastic detection techniques (e.g., Raman, FTIR, microscopy)
-            <br>
-            Validates the approach on a custom dataset of microsphere backscatter signals, demonstrating potential for in-situ environmental monitoring
-            <br>
-            Advances the field of acoustic signal processing by showcasing the potential of ultrasound and AI for environmental pollutant characterization
-          </p>
+            <p>
+              Developed a high-frequency ultrasound-based method for microplastic detection and sizing  
+              <br>
+              Designed a peak extraction technique to isolate strong backscatter signals for analysis  
+              <br>
+              Achieved 99.63% material classification accuracy using a custom 1D-CNN (PE, PMMA, steel, glass)  
+              <br>
+              Performed size estimation with a material-specific MLP achieving 99.97% accuracy  
+              <br>
+              Combined classification and sizing into an integrated machine learning pipeline  
+              <br>
+              Provides a fast, low-cost, and automated alternative to traditional spectroscopic methods  
+              <br>
+              Validated on a custom acoustic dataset, enabling potential for real-time in-situ monitoring
+            </p>
           </td>
         </tr>
 
@@ -250,21 +247,21 @@
             <br>
             <p></p>
             <p>
-              Presents the first multimodal deep learning architecture for autonomous multi-activity recognition in socially assistive robots (SARs)
+              Developed the first multimodal deep learning system for multi-activity ADL recognition in SARs  
               <br>
-              Introduces a novel ADL and motion embedding space to distinguish between known ADLs, unseen ADLs, and atypical ADL performances
+              Introduced ADL and motion embedding spaces to detect known, unseen, and atypical ADLs  
               <br>
-              Proposes a new user state estimation method that applies similarity functions to identify novel or atypical ADLs in real-time
+              Proposed a user state estimation method using similarity functions for real-time ADL inference  
               <br>
-              Enables proactive human-robot interaction (HRI) by allowing SARs to autonomously initiate assistive behaviors based on activity context
+              Enabled proactive HRI by allowing SARs to autonomously initiate context-aware assistive behaviors  
               <br>
-              Addresses limitations of prior ADL recognition systems which misclassified non-ADL movements and lacked online generalization
+              Overcame false positives and limited generalization in prior ADL recognition systems  
               <br>
-              Demonstrates higher ADL classification accuracy compared to state-of-the-art human activity recognition models
+              Achieved higher classification accuracy than state-of-the-art human activity recognition models  
               <br>
-              Validates the system through real-world HRI experiments with the socially assistive robot Leia in cluttered living environments
+              Validated in cluttered home-like environments using the socially assistive robot Leia  
               <br>
-              Supports diverse users and environments by recognizing a wider range of ADLs and adapting to personalized or atypical behaviors
+              Adapted to diverse users by recognizing variable and non-standard ADL execution styles
             </p>
           </td>
         </tr>
