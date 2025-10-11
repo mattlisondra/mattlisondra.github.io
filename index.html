@@ -101,7 +101,93 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/tcbviogif2.gif" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="https://sites.google.com/view/tcb-vio/home">
+              <papertitle>[1] TCB-VIO: Tightly-Coupled Focal-Plane Binary-Enhanced Visual Inertial Odometry</papertitle>
+            </a>
+            <br>
+            <strong>Matthew Lisondra*1</strong>,
+            <a href="https://kimjunseo.com/">Junseo Kim*2</a>,
+            Glenn Takashi Shimoda3,
+            <a href="https://sajad-saeedi.ca/">Sajad Saeedi4</a>
+            <br>
+            (1University of Toronto, 2TU Delft, 3TMU, 4University College London)
+            <br>
+            <span style="color:green; font-weight:bold;"><em>IEEE Robotics and Automation Letters (RA-L)</em>, 2025</span>
+            <br>
+            <span style="color:green; font-weight:bold;"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026</span>
+            <br>
+            <a href="data/Lisondra2025RAL.bib">bibtex</a>
+            /
+            <a href="https://sites.google.com/view/tcb-vio/home">Project Webpage</a>
+            /
+            <a href="https://arxiv.org/abs/2510.03919">PDF</a>
+            /
+            <a href="https://www.youtube.com/watch?v=uJioRzsg9MI">Video</a><br /> 
+            <br>
+            <p></p>
+            <p>
+              Designed the first tightly-coupled 6-DoF Visual-Inertial Odometry for FPSPs (TCB-VIO)
+              <br>
+              Operates at 250 FPS with on-sensor binary edge input and 400 Hz IMU integration via MSCKF
+              <br>
+              Introduced binary-enhanced KLT tracker for robust and smooth feature tracking on SCAMP-5
+              <br>
+              Reduces latency and power via direct on-sensor SIMD processing with limited pixel memory
+              <br>
+              Outperforms VINS-Mono, ORB-SLAM3, and ROVIO under aggressive motion and fast dynamics
+              <br>
+              Achieves long, stable feature tracks in real-world tests with motion-capture ground truth
+              <br>
+              Extends OpenVINS tightly-coupled architecture for binary descriptors and high-speed tracking
+            </p>
+          </td>
+        </tr>
 
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/siddarthwork.gif" alt="secure" width="200" height="202">
+          </td>
+          <td width="75%" valign="middle">
+            <a href="">
+              <papertitle>[2] SplatSearch: Instance Image Goal Navigation for Mobile Robots using 3D Gaussian Splatting and Diffusion Models</papertitle>
+            </a>
+            <br>
+            <a href="https://quest2gm.github.io/">Siddarth Narasimhan12</a>,
+            <strong>Matthew Lisondra1</strong>,
+            <a href="https://ca.linkedin.com/in/haitong-wang-a5707a1ab">Haitong Wang1</a>,
+            <a href="https://www.mie.utoronto.ca/faculty_staff/nejat/">Goldie Nejat1</a>
+            <br>
+            (1University of Toronto, 2SyncereAI)
+            <br>
+            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2025
+            <br>
+            <span style="color:red; font-weight:bold;">(In Review)</span>
+            <br>
+            <p></p>
+            <p>
+              Introduced SplatSearch, a novel architecture for Instance Image Goal Navigation (IIN) in unknown environments  
+              <br>
+              Leveraged sparse-view 3D Gaussian Splatting (3DGS) to reconstruct environments and render multiple novel viewpoints  
+              <br>
+              Developed a View-Consistent Image Completion Network (VCICN), a multi-view diffusion model for inpainting missing regions in rendered views  
+              <br>
+              Enabled viewpoint-invariant goal recognition by combining geometry-based rendering with diffusion-based inpainting  
+              <br>
+              Proposed a frontier exploration strategy that fuses semantic context from goal images with visual context from synthesized views  
+              <br>
+              Allowed robots to prioritize frontiers that are both semantically and visually relevant to the search target  
+              <br>
+              Outperformed state-of-the-art IIN methods in Success Rate and Success Path Length in photorealistic and real-world environments  
+              <br>
+              Validated the design through ablation studies confirming the contribution of each architectural component
+            </p>
+          </td>
+        </tr>
 
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -109,7 +195,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="https://arxiv.org/abs/2505.20503">
-              <papertitle>[1] Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review</papertitle>
+              <papertitle>[3] Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra1</strong>,
@@ -150,50 +236,11 @@
 
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="images/tcbviogif2.gif" alt="secure" width="200" height="202">
-          </td>
-          <td width="75%" valign="middle">
-            <a href="https://sites.google.com/view/tcb-vio/home">
-              <papertitle>[2] TCB-VIO: Tightly-Coupled Focal-Plane Binary-Enhanced Visual Inertial Odometry</papertitle>
-            </a>
-            <br>
-            <strong>Matthew Lisondra*1</strong>,
-            <a href="https://kimjunseo.com/">Junseo Kim*2</a>,
-            Glenn Takashi Shimoda3,
-            <a href="https://sajad-saeedi.ca/">Sajad Saeedi4</a>
-            <br>
-            (1University of Toronto, 2TU Delft, 3TMU, 4University College London)
-            <br>
-            <em>IEEE Robotics and Automation Letters (RA-L)</em>, 2025
-            <br>
-            <span style="color:green; font-weight:bold;">(Accepted IEEE RA-L, Presentation Vienna, Austria for IEEE 2026 ICRA)</span>
-            <br>
-            <p></p>
-            <p>
-              Designed the first tightly-coupled 6-DoF Visual-Inertial Odometry for FPSPs (TCB-VIO)
-              <br>
-              Operates at 250 FPS with on-sensor binary edge input and 400 Hz IMU integration via MSCKF
-              <br>
-              Introduced binary-enhanced KLT tracker for robust and smooth feature tracking on SCAMP-5
-              <br>
-              Reduces latency and power via direct on-sensor SIMD processing with limited pixel memory
-              <br>
-              Outperforms VINS-Mono, ORB-SLAM3, and ROVIO under aggressive motion and fast dynamics
-              <br>
-              Achieves long, stable feature tracks in real-world tests with motion-capture ground truth
-              <br>
-              Extends OpenVINS tightly-coupled architecture for binary descriptors and high-speed tracking
-            </p>
-          </td>
-        </tr>
-
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
             <img src="images/2025_mpus.png" alt="secure" width="200" height="202">
           </td>
           <td width="75%" valign="middle">
             <a href="">
-              <papertitle>[3] High-frequency Focused Ultrasound for Microplastics Identification and Size Estimation</papertitle>
+              <papertitle>[4] High-frequency Focused Ultrasound for Microplastics Identification and Size Estimation</papertitle>
             </a>
             <br>
             <a href="https://ca.linkedin.com/in/navid-zarrabi">Navid Zarrabi2</a>,
@@ -236,7 +283,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="">
-              <papertitle>[4] PovNet+: A Deep Learning Architecture for Socially Assistive Robots <br>to Learn and Assist with Multiple Activities of Daily Living</papertitle>
+              <papertitle>[5] PovNet+: A Deep Learning Architecture for Socially Assistive Robots <br>to Learn and Assist with Multiple Activities of Daily Living</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
@@ -278,7 +325,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="https://sites.google.com/view/structure-from-wifi/journal-extension">
-              <papertitle>[5] Inverse k-visibility for RSSI-based Indoor Geometric Mapping (In Review)</papertitle>
+              <papertitle>[6] Inverse k-visibility for RSSI-based Indoor Geometric Mapping (In Review)</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
@@ -288,13 +335,11 @@
             <br>
             (1University of Toronto, 2TU Delft, 3TMU, 4University College London)
             <br>
-            <em>IEEE Sensors Journal (ISJ)</em>, 2024
-            <br>
-            <em>Special Issue on Machine Learning for Radio Frequency Sensing</em>
+            <em>Autonomous Robots</em>, 2024
             <br>
             <span style="color:red; font-weight:bold;">(In Review)</span>
             <br>
-            <a href="data/KimLisondra2024arXiv.bib">bibtex</a>
+            <a href="data/KimLisondra2024.bib">bibtex</a>
             /
             <a href="https://sites.google.com/view/structure-from-wifi/journal-extension">Project Webpage</a>
             /
@@ -321,7 +366,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="https://sites.google.com/view/bit-vio/home">
-              <papertitle>[6] Visual Inertial Odometry using Focal Plane Binary Features (BIT-VIO)</papertitle>
+              <papertitle>[7] Visual Inertial Odometry using Focal Plane Binary Features (BIT-VIO)</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
@@ -363,7 +408,7 @@
           </td>
           <td width="75%" valign="middle">
             <a href="data/MASc_Thesis_Matthew_Lisondra_Final.pdf">
-              <papertitle>[7] Focal-Plane Sensor-Processor-Based Visual Inertial Odometry</papertitle>
+              <papertitle>[8] Focal-Plane Sensor-Processor-Based Visual Inertial Odometry</papertitle>
             </a>
             <br>
             <strong>Matthew Lisondra*1</strong>,
